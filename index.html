@@ -1,1 +1,187 @@
-<p>Hello World</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Estate Instagram / WhatsApp Poster</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #eaeaea;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Instagram & WhatsApp portrait size (4:5) */
+    .flyer {
+      width: 400px;
+      height: 500px;
+      background: #ffffff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #0f4c75, #3282b8);
+      color: #ffffff;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+
+    .header p {
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    .image {
+      width: 100%;
+      height: 200px;
+      background: #ccc url('house-image.jpg') center/cover no-repeat;
+    }
+
+    .content {
+      padding: 16px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #0f4c75;
+      margin-bottom: 6px;
+    }
+
+    .location {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      font-size: 13px;
+      color: #333;
+    }
+
+    .feature-box {
+      text-align: center;
+      background: #f5f5f5;
+      padding: 8px;
+      border-radius: 8px;
+      width: 30%;
+      font-weight: bold;
+    }
+
+    .description {
+      font-size: 13px;
+      line-height: 1.5;
+      color: #444;
+      margin-bottom: 12px;
+    }
+
+    .agent {
+      background: #f0f6fb;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 13px;
+    }
+
+    .agent h3 {
+      font-size: 14px;
+      margin-bottom: 4px;
+      color: #0f4c75;
+    }
+
+    .cta {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .cta a {
+      display: inline-block;
+      background: #3282b8;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 22px;
+      border-radius: 25px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .footer {
+      background: #0f4c75;
+      color: #ffffff;
+      text-align: center;
+      padding: 8px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="flyer">
+
+    <div class="header">
+      <h1>Luxury 3-Bedroom Apartment</h1>
+      <p>FOR SALE</p>
+    </div>
+
+    <div class="image"></div>
+
+    <div class="content">
+      <div>
+        <div class="price">₦85,000,000</div>
+        <div class="location">Lekki Phase 1, Lagos</div>
+
+        <div class="features">
+          <div class="feature-box">3 Beds</div>
+          <div class="feature-box">3 Baths</div>
+          <div class="feature-box">2 Parking</div>
+        </div>
+
+        <div class="description">
+          Modern 3-bedroom apartment in a secure estate with fitted kitchen, spacious rooms, and excellent access roads.
+        </div>
+      </div>
+
+      <div>
+        <div class="agent">
+          <h3>Contact Agent</h3>
+          <p>Ugo Realty Ltd</p>
+          <p>📞 0800 123 4567</p>
+        </div>
+
+        <div class="cta">
+          <a href="#">Book Inspection</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      www.ugorealty.com
+    </div>
+
+  </div>
+
+</body>
+</html>
